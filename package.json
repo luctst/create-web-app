@@ -1,0 +1,28 @@
+{
+  "name": "generator-web-app",
+  "version": "1.0.0",
+  "description": "Boilerplate for your next web application 🐙 🐙",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "app"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luctst/web-app-boilerplate.git"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "Tostée Lucas <lucas.tostee@gmail.com> (https://www.lucas-tostee.com)",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/luctst/web-app-boilerplate/issues"
+  },
+  "homepage": "https://github.com/luctst/web-app-boilerplate#readme",
+  "dependencies": {
+    "yeoman-generator": "^3.2.0"
+  }
+}
