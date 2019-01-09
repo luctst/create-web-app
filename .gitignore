@@ -59,3 +59,7 @@ typings/
 
 # next.js build output
 .next
+
+# Not need
+.DS_STORE
+.vscode
