@@ -40,6 +40,13 @@ module.exports = {
             {
                 test: /\.scss$/,
                 use: [extractCss.loader, "css-loader", "sass-loader"],
+            },
+            {
+                test: /\.(jpg|png|svg|jpeg|gif)$/,
+                use: [{
+                    loader: "file-loader",
+                    options: {name:"[name].[ext]",outputPath: "img/"}
+                }]
             }
         ]
     },
