@@ -24,7 +24,8 @@ export class App extends React.Component {
                 </header>
                 <section className="container content">
                     <h2 className="is__title__secondary">Welcome on your App !! 👋 but what to do now ? </h2>
-                    <p>You can start by editing the index.js file to change your app read the get started section on the <a href="https://github.com/luctst/web-app-boilerplate">README.md</a> file.</p>
+                    <p>You can start by editing the index.js file to change your app 👨‍💻 .</p>
+                    <p>If you want more information's of how to use this app check this link 👉 <a href="https://github.com/luctst/web-app-boilerplate">README.md</a> 👈 .</p>
                 </section>
             </React.Fragment>
         );
