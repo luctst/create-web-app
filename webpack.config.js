@@ -22,12 +22,6 @@ module.exports = {
         open: true,
         disableHostCheck: true
     },
-    plugins: [
-        new extractCss({
-            filename: "style.css"
-        }),
-        new webpackDashboard(),
-    ],
     module: {
         rules: [
             {
@@ -50,4 +44,10 @@ module.exports = {
             }
         ]
     },
+    plugins: [
+        new extractCss({
+            filename: "style.css"
+        }),
+        new webpackDashboard(),
+    ],
 };
