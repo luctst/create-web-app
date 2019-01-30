@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "web-app-boilerplate",
   "version": "1.0.0",
   "description": "Boilerplate for your next web application 🐙 🐙",
   "main": "",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/luctst/web-app-boilerplate"
   },
   "author": "Tostée Lucas <lucas.tostee@gmail.com> (https://www.lucas-tostee.com)",
   "license": "",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/luctst/web-app-boilerplate/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/luctst/web-app-boilerplate",
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.2.2",
