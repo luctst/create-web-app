@@ -1,10 +1,10 @@
 /**
  * Import
  */
+import "./assets/scss/main.scss";
+import img from "./assets/img/react-icon.png";
 import React from "react";
 import { render } from "react-dom";
-import css from "./assets/sass/main.scss";
-import img from "./assets/img/react-icon.png";
 
 /**
  * Variables

@@ -3,7 +3,7 @@
  */
 const path = require("path");
 const extractCss = require("mini-css-extract-plugin");
-const webpackDashboard = require("webpack-dashboard/plugin");
+const html = require("html-webpack-plugin");
 
 /**
  * Export
@@ -48,6 +48,8 @@ module.exports = {
         new extractCss({
             filename: "style.css"
         }),
-        new webpackDashboard(),
+        new html({
+            template: "./src/index.html"
+        }),
     ],
 };
