@@ -1,7 +1,7 @@
 {
-  "name": "web-app-boilerplate",
+  "name": "create-web-app",
   "version": "1.0.0",
-  "description": "Boilerplate for your next web application 🐙 🐙",
+  "description": "Easily create your next web application 🐙 🐙",
   "main": "",
   "scripts": {
     "test": "",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/luctst/web-app-boilerplate"
+    "url": "https://github.com/luctst/create-web-app"
   },
   "author": "Tostée Lucas <lucas.tostee@gmail.com> (https://www.lucas-tostee.com)",
   "license": "",
   "bugs": {
-    "url": "https://github.com/luctst/web-app-boilerplate/issues"
+    "url": "https://github.com/luctst/create-web-app/issues"
   },
-  "homepage": "https://github.com/luctst/web-app-boilerplate",
+  "homepage": "https://github.com/luctst/create-web-app",
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/plugin-proposal-class-properties": "^7.2.3",
@@ -30,6 +30,7 @@
     "node-sass": "^4.11.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
+    "react-router-dom": "^4.3.1",
     "sass-loader": "^7.1.0",
     "webpack": "^4.28.4",
     "webpack-cli": "^3.2.1",

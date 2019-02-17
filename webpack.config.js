@@ -12,7 +12,7 @@ module.exports = {
     mode: "development",
     entry: path.resolve(__dirname, "src", "index.js"),
     output: {
-        path: path.resolve(__dirname, "dist"),
+        path: path.resolve(__dirname, "public"),
         filename: "bundle.js"
     },
     devServer: {
@@ -20,7 +20,8 @@ module.exports = {
         compress: true,
         port: 8080,
         open: true,
-        disableHostCheck: true
+        disableHostCheck: true,
+        historyApiFallback: true,
     },
     module: {
         rules: [

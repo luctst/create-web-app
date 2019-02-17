@@ -1,4 +1,4 @@
-# web-app-boilerplate 🐙🐙
+# Create Web App 🐙🐙
 *Easily start your next application.*
 
 ## Features:
