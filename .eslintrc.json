@@ -20,8 +20,6 @@
         "react"
     ],
     "rules": {
-        "semi": "error",
-        "quotes": ["error", "backtick"],
         "no-unused-vars": "warn"
     }
 }
