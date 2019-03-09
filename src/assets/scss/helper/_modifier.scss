@@ -4,6 +4,16 @@
 @import "./variables.scss";
 
 /**
+* Code
+*/
+.is__code {
+    background-color: $bgCode;
+    border-radius: 3px;
+    margin: 0;
+    padding: .2em .4em;
+}
+
+/**
 * Title
 */
 .is__main__title {
