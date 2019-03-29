@@ -8,10 +8,11 @@
 * Babel.
 * Sass.
 * React-router-dom.
-* Redux (soon).
+* Redux.
 * Eslint.
 * Prettier.
 * Jest (soon).
+* Styled-components (soon).
 
 ## Authors:
 * **Tostée Lucas** - Follow me on [Twitter](https://www.twitter.com/@ltostee), personal website [Tostée Lucas](https://www.lucas-tostee.com).
