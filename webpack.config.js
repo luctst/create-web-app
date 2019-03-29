@@ -48,9 +48,6 @@ module.exports = {
     plugins: [
         new extractCss({
             filename: "style.css"
-        }),
-        new html({
-            template: "./src/index.html"
-        }),
-    ],
+        })
+    ]
 };
