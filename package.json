@@ -19,11 +19,11 @@
   },
   "homepage": "https://github.com/luctst/create-web-app",
   "devDependencies": {
-    "@babel/core": "^7.3.4",
+    "@babel/core": "^7.4.3",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.4",
     "css-loader": "^2.1.1",
-    "eslint": "^5.15.1",
+    "eslint": "^5.16.0",
     "eslint-plugin-react": "^7.12.4",
     "file-loader": "^3.0.1",
     "mini-css-extract-plugin": "^0.5.0",
@@ -34,8 +34,9 @@
     "react-router-dom": "^4.3.1",
     "redux": "^4.0.1",
     "sass-loader": "^7.1.0",
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.2.1",
-    "webpack-dev-server": "^3.2.1"
+    "styled-components": "^4.2.0",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1"
   }
 }
