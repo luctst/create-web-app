@@ -14,7 +14,7 @@
 * Redux.
 * Eslint.
 * Prettier.
-* Jest (soon).
+* Jest.
 * Styled-components.
 
 ## Why using this project ?
