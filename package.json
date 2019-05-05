@@ -6,7 +6,8 @@
   "scripts": {
     "test": "",
     "build": "webpack --mode='production'",
-    "start": "webpack-dev-server"
+		"start": "webpack-dev-server",
+		"lint": "eslint"
   },
   "repository": {
     "type": "git",
