@@ -52,5 +52,12 @@ webpack.config.js
 * **test** - Where you can manages your test.
 * **webpack** - Handle the webpack config files.
 
+## Other option:
+you're still not comfortable with all this config files and you really prefer being focus on code ?
+
+i created an npm package who takes the popular `create-react-app` package config with my personal structure and a couple of options, check this link for more infos :)
+
+[create-react-app-luctst](https://www.npmjs.com/package/create-react-app-luctst).
+
 ## Authors:
 * **Tostée Lucas** - Follow me on [Twitter](https://www.twitter.com/@ltostee), personal website [Tostée Lucas](https://www.lucas-tostee.com).
