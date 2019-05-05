@@ -2,10 +2,18 @@ const path = require("path");
 
 module.exports = {
 	mode: "development",
-	entry: path.resolve("src", "index.js"),
+	target: 'web',
+	entry: {
+		index: path.resolve("src", "index.js")
+	},
 	output: {
-		path: path.resolve("public"),
-		filename: "bundle.js"
+		path: path.resolve("public/js/"),
+		filename: "js/[name].[hash].bundle.js"
+	},
+	optimization: {
+		splitChunks: {
+			chunks: "all"
+		}
 	},
 	devServer: {
 		contentBase: path.resolve("public"),
