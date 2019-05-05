@@ -5,11 +5,8 @@ const modules = require("./webpack/module-config");
 /**
  * Export
  */
-module.exports = () => {
-	const getConfig = {...config};
-	return {
-		...getConfig,
-		module: modules,
-		plugins,
-	};
+module.exports = {
+	...config,
+	module: modules,
+	plugins,
 };
